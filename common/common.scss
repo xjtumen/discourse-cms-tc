@@ -1,11 +1,13 @@
-
 .topic-list .topic-list-data.posters {
     display: none;
 }
 
-.topic-list .num {
-    display: none;
+.topic-list .posts, .topic-list .views { // , .topic-list .activity
+    display:none;
 }
+// .topic-list .num {
+//     display: none;
+// }
 
 .topic-avatar {
     display: none;
