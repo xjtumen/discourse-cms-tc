@@ -1,3 +1,7 @@
+.alert-emails-disabled {
+    display: none;
+}
+
 .topic-list .topic-list-data.posters {
     display: none;
 }
@@ -25,8 +29,6 @@
     display: none;
 }
 
-
-
 .lightbox-wrapper {
     display: block;
     text-align: center;
@@ -35,11 +37,4 @@
 p>img:not(.emoji){
     display: block;
     margin: 0 auto;
-}
-
-.alert-emails-disabled {
-    display: none;
-}
-#global-notice-alert-emails-disabled {
-display: none;
 }
