@@ -1,0 +1,37 @@
+
+.topic-list .topic-list-data.posters {
+    display: none;
+}
+
+.topic-list .num {
+    display: none;
+}
+
+.topic-avatar {
+    display: none;
+}
+
+// .topic-body .topic-meta-data {
+//     display: none;
+// }
+
+//.post-info.post-date {
+//    display: none;
+//}
+
+.topic-meta-data .names {
+    display: none;
+}
+
+
+
+.lightbox-wrapper {
+    display: block;
+    text-align: center;
+}
+
+p>img:not(.emoji){
+    display: block;
+    margin: 0 auto;
+}
+

@@ -1,0 +1,14 @@
+<script type="text/discourse-plugin" version="0.8">
+
+    api.modifyClass("service:more-topics-preference-tracking", {
+        pluginId: "related-topics",
+        init() {
+            this._super(...arguments);
+
+            if (!this.memoryTab) {
+                this.memoryTab = "related-topics";
+            }
+        },
+    });
+
+</script>
